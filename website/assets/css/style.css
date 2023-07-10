@@ -1,3 +1,21 @@
 body{
     background: #BDBDBD;
 }
+
+.jumbotron {
+    height: 700px;
+    background: center/cover url("https://cdn.pixabay.com/photo/2023/07/01/18/21/water-8100724_1280.jpg") no-repeat;
+  }
+
+.tagphrase{
+    font-size: 10rem;
+    
+}
+
+.tagcontainer{
+    background-color: rgba(240, 248, 255, 0.89);
+}
+
+.tagsecond{
+    font-size: 4rem;
+}
