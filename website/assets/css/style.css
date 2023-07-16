@@ -3,9 +3,17 @@ body{
 }
 
 .jumbotron {
+    background-image: url("https://picsum.photos/id/10/2500/700");
+    /* background-attachment: fixed; */
+    height: 700px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+   }
+/* .jumbotron {
     height: 700px;
     background: center/cover url("https://cdn.pixabay.com/photo/2023/07/01/18/21/water-8100724_1280.jpg") no-repeat;
-  }
+  } */
 
 .tagphrase{
     font-size: 10rem;
@@ -18,4 +26,9 @@ body{
 
 .tagsecond{
     font-size: 4rem;
+}
+
+.rounded-circle{
+    height: 25rem;
+    object-fit: cover;
 }
