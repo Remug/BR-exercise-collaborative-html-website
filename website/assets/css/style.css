@@ -10,13 +10,11 @@ body{
     background-repeat: no-repeat;
     background-size:cover;
    }
-/* .jumbotron {
-    height: 700px;
-    background: center/cover url("https://cdn.pixabay.com/photo/2023/07/01/18/21/water-8100724_1280.jpg") no-repeat;
-  } */
+
 
 .tagphrase{
     font-size: 10rem;
+    text-align: center;
     
 }
 
@@ -26,9 +24,55 @@ body{
 
 .tagsecond{
     font-size: 4rem;
+    text-align: center;
 }
 
 .rounded-circle{
-    height: 25rem;
+    height: 18rem;
     object-fit: cover;
 }
+
+@media screen and (max-width: 992px) {
+    /* Apply styles for screens with a maximum width of 576px (adjust this value as needed) */
+    .tagphrase {
+        font-size: 5rem; /* Font size for even smaller screens */
+    }
+    .tagsecond {
+        font-size: 3rem;
+    }
+    .rounded-circle {
+        height: 15rem; /* Height for smaller screens */
+    }
+}
+
+@media screen and (max-width: 780px) {
+    /* Apply styles for screens with a maximum width of 768px (adjust this value as needed) */
+    .tagphrase {
+        font-size: 3rem; /* Font size for smaller screens */
+    }
+    .tagsecond{
+        font-size: 2rem;
+    }
+    .col-form-label {
+        text-align: start; /* Adjust the text alignment of the labels on smaller screens */
+    }
+
+}
+
+@media screen and (max-width: 576px) {
+    /* Apply styles for screens with a maximum width of 576px (adjust this value as needed) */
+    .tagphrase {
+        font-size: 2rem; /* Font size for even smaller screens */
+    }
+    .tagsecond{
+        font-size: 1rem;
+    }
+
+    .pe-md-5, .rounded-circle {
+        padding-right: 1rem; /* Adjust the right padding on small screens */
+    }
+    /* .formlabel {
+        text-align: start; /* Adjust the text alignment of the labels on smaller screens */
+    /* } */
+}
+
